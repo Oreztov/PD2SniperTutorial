@@ -1,0 +1,132 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_temp" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/test_actors/temp_texture_df"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/test_actors/temp_texture_nm"/>
+        <material_texture file="units/pd2_dlc_sah/test_actors/temp_texture_gsma"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_brick_plaster_blend" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/architecture/bph_int/int_textures/bph_int_rough_brick_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bph/architecture/bph_int/int_textures/bph_int_rough_brick_nm"/>
+    </material>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_stone_wall" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_stone_wall_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_stone_wall_nm"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_stone_wall_blend_df"/>
+        <variable type="vector3" name="blend_control" value="0.049999997019768 0.69999998807907 0"/>
+        <normal_layer0_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_stone_wall_nm"/>
+        <material_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_stone_wall_gsma"/>
+        <diffuse_layer2_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_stone_wall_blend_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_bank_01" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:NORMALMAP" name="mat_stone_wall_details" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_stone_wall_details_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_stone_wall_details_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_concrete" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_concrete_df"/>
+    </material>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:DOUBLE_SIDED:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_ext_floor_metal" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_metal_floor_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_metal_floor_nm"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_antislip_meal_green_blend_df"/>
+        <variable type="vector3" name="blend_control" value="0.049999997019768 0.69999998807907 0"/>
+        <normal_layer0_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_antislip_meal_green_blend_nm"/>
+        <material_texture file="units/pd2_dlc_chill/architecture/chl_whole_building/chl_int_metal_floor_gsma"/>
+        <diffuse_layer2_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_antislip_meal_green_blend_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_bank_01" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:DOUBLE_SIDED:NORMALMAP" name="mat_ext_floor_metal_sheet" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_metal_floor_sheet_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_metal_floor_sheet_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_metal_beam" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/architecture/bph_int/int_textures/bph_beams01_b_df"/>
+        <bump_normal_texture file="units/payday2/architecture/air_hangar_segment/air_beams01_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_rusty_pipes" version="2">
+        <diffuse_texture file="units/pd2_dlc_born/props/bor_prop_drain_pipes/bor_prop_drain_pipes_rust_df"/>
+        <bump_normal_texture file="units/pd2_dlc_born/props/bor_prop_drain_pipes/bor_prop_drain_pipes_rust_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_wall_metal_tiles" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/mat_wall_metal_tiles_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/mat_wall_metal_tiles_nm"/>
+    </material>
+    <material render_template="decal:DIFFUSE_TEXTURE:OPACITY_TEXTURE" name="mat_helipad_markings" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_helipad_letter_df"/>
+        <opacity_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_helipad_letter_op"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_wire" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_window_cleaning_platform/dah_prop_wire_df"/>
+        <bump_normal_texture file="units/pd2_dlc_dah/props/dah_prop_window_cleaning_platform/dah_prop_wire_nm"/>
+    </material>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_green_antislip_blend" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_antislip_metal_green_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_antislip_metal_green_nm"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_antislip_meal_green_blend_df"/>
+        <variable type="vector3" name="blend_control" value="0.17000000178814 0.80000001192093 0"/>
+        <normal_layer0_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_antislip_meal_green_blend_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_bank_01" type="cubemap"/>
+        <diffuse_layer2_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_antislip_meal_green_blend_gsma"/>
+        <material_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_antislip_metal_green_gsma"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:NORMALMAP" name="mat_alpha_grid" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_grid_floor_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_grid_floor_nm"/>
+        <variable type="scalar" name="alpha_ref" value="0.046000002184883"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:DOUBLE_SIDED:NORMALMAP" name="mat_metal_panel" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_metal_panel_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_metal_panel_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_ind_ext_level_railing" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_tunnel_railings_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT" name="mat_ind_ext_level_railing_mount" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_tunnel_railings_mount_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_mount_nm"/>
+    </material>
+    <material render_template="effect:BLEND_MUL:DIFFUSE0_TEXTURE" name="mat_ind_ext_level_railing_mount_add" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_mount_df"/>
+        <variable type="scalar" name="intensity" value="dimlight"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_ind_ext_level_stairs" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_tunnel_platform_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_nm"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_TEXTURE:RL_ENVIRONMENT" name="mat_ind_ext_level_stairs_alpha" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_tunnel_platform_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_nm"/>
+        <opacity_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_alpha_df"/>
+    </material>
+    <material render_template="shadow_caster_only:ALPHA_MASKED:EXTERNAL_ALPHA_REF" name="mat_ind_ext_level_stairs_alpha_shadow" version="2">
+        <diffuse_texture file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_alpha_df"/>
+        <variable type="scalar" name="alpha_ref" value="0.045000001788139"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_rooftop_floor" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_rooftop_floor_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_rooftop_floor_nm"/>
+        <material_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_rooftop_floor_gsma"/>
+    </material>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_stonefloor_soil_blend" version="2">
+        <diffuse_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_gravel_soil_df"/>
+        <bump_normal_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_gravel_soil_nm"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_rooftop_floor_df"/>
+        <variable type="vector3" name="blend_control" value="0.070000000298023 0.30000001192093 0"/>
+        <normal_layer0_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_rooftop_floor_nm"/>
+        <material_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_gravel_soil_gsma"/>
+        <diffuse_layer2_texture file="units/pd2_dlc_bph/architecture/bph_ext/ext_textures/bph_ext_rooftop_floor_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_bank_01" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT" version="2" name="mat_bnk_int_wall_1">
+        <diffuse_texture file="units/payday2/architecture/bnk/bnk_int_wall_1_df"/>
+        <bump_normal_texture file="units/payday2/architecture/bnk/bnk_int_wall_1_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_silver_df" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_broken_edge" version="2">
+        <diffuse_texture file="units/pd2_dlc_brb/architecture/brb_int/brb_int_floor_with_hole/brb_int_floor_hole_dest_df"/>
+        <bump_normal_texture file="units/pd2_dlc_brb/architecture/brb_int/brb_int_floor_with_hole/brb_int_floor_hole_dest_nm"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+</materials>

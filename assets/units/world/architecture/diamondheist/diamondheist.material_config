@@ -1,0 +1,92 @@
+<materials version="3">
+	<material name="roof_blend" decal_material="concrete" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_D_A:BLEND_SMOOTH:BLEND_TINT_SECOND:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT" version="2">
+		<diffuse_texture file="units/world/architecture/diamondheist/diamondheist_roof_df"/>
+		<diffuse_layer0_texture file="units/world/architecture/diamondheist/diamondheist_roof_blend_df"/>
+		<bump_normal_texture file="units/world/architecture/diamondheist/diamondheist_roof_nm"/>
+	</material>
+	<material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:INSTANCED" decal_material="glass_breakable" name="glass_shattered" version="2">
+		<variable value="1.3899999856949 0.84999996423721 0.94999998807907" type="vector3" name="fresnel_settings"/>
+		<opacity_texture file="units/world/architecture/glass/glass_shattered_generic_diamond_op"/>
+		<diffuse_texture file="units/world/architecture/glass/glass_shattered_generic_diamond_df"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+	</material>
+	<material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:INSTANCED" decal_material="glass_breakable" version="2" name="glass_breakable">
+		<variable value="0 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+		<opacity_texture file="units/world/architecture/diamondheist/glass_door/glass_indoors_diamondheist_op"/>
+		<diffuse_texture file="units/world/architecture/diamondheist/glass_door/glass_indoors_diamondheist_df"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+	</material>
+	<material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" decal_material="glass_breakable" version="2" name="glass_breakable_io">
+		<variable value="0 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+		<opacity_texture file="units/world/architecture/diamondheist/glass_door/glass_indoors_diamondheist_op"/>
+		<diffuse_texture file="units/world/architecture/diamondheist/glass_door/glass_indoors_diamondheist_df"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+	</material>
+	<material name="tile" render_template="generic:DIFFUSE_TEXTURE:PIXEL_TILE:RL_CORE_ENVIRONMENT" version="2">
+		<diffuse_texture file="units/world/architecture/diamondheist/diamondheist_atlas_df"/>
+		<variable value="0.25 0.25 10" type="vector3" name="size_density"/>
+		<variable value="0.995" type="scalar" name="texture_padding"/>
+	</material>
+	<material name="tile_tint" render_template="generic:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:PIXEL_TILE:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/world/architecture/diamondheist/diamondheist_atlas_df"/>
+	</material>
+	<material name="mtr_railing" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/world/props/diamond_heist/railings/railing_df"/>
+		<reflection_texture global_texture="current_global_texture" type="cubemap"/>
+		<variable value="3.9500000476837 0.019000001251698 2.30000019 c07349" type="vector3" name="environment_settings"/>
+	</material>
+	<material name="fence" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+		<diffuse_texture file="units/world/props/shared_textures/fence_tile_df"/>
+		<bump_normal_texture file="units/world/props/shared_textures/fence_tile_nm"/>
+		<variable value="0.053000003099442" type="scalar" name="alpha_ref"/>
+	</material>
+	<material version="2" decal_material="metal" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mtr_helipad_railing">
+		<diffuse_texture file="units/world/architecture/diamondheist/helipad_railing_df"/>
+	</material>
+	<material version="2" render_template="generic:DIFFUSE_TEXTURE" name="rooftop_details">
+		<diffuse_texture file="units/world/architecture/diamondheist/rooftop_details_df"/>
+	</material>
+	<material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" decal_material="glass_unbreakable" version="2" name="glass_unbreakable">
+		<variable value="0 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+		<opacity_texture file="units/payday2/glass/glass_clear_default_op"/>
+		<diffuse_texture file="units/payday2/glass/glass_clear_default_df"/>
+		<reflection_texture global_texture="current_global_texture" type="cubemap"/>
+	</material>
+	<material name="glass_block" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/world/architecture/diamondheist/glass_block/glass_block_df"/>
+		<reflection_texture type="cube" global_texture="current_global_texture"/>
+		<variable value="1 0 2" type="vector3" name="environment_settings"/>
+		<bump_normal_texture file="units/world/architecture/diamondheist/glass_block/glass_block_nm"/>
+	</material>
+	<material version="2" render_template="generic:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:PIXEL_TILE:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="tile_tint_elevator">
+		<diffuse_texture file="units/world/architecture/diamondheist/diamondheist_atlas_df"/>
+	</material>
+	<material version="2" render_template="generic:DIFFUSE_TEXTURE:RL_CORE_ENVIRONMENT:VERTEX_COLOR" name="stairs_room">
+		<diffuse_texture file="units/world/architecture/diamondheist/stair_room_df"/>
+	</material>
+	<material name="rooftop_details_alpha" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2">
+		<diffuse_texture file="units/world/architecture/diamondheist/rooftop_details_df"/>
+		<variable value="0.15800000727177" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="metal_holes_floor" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+		<diffuse_texture file="units/world/architecture/diamondheist/metalplatesholes_df"/>
+		<bump_normal_texture file="units/world/architecture/diamondheist/metalplatesholes_nm"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+	</material>
+	<material name="metal_plates" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+		<diffuse_texture file="units/world/architecture/diamondheist/metal_panel_screws_df"/>
+		<bump_normal_texture file="units/world/architecture/diamondheist/metal_panel_screws_nm"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+	</material>
+	<material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:INSTANCED" decal_material="glass_breakable" name="glass_shattered2" version="2">
+		<variable value="1.3899999856949 0.84999996423721 0.94999998807907" type="vector3" name="fresnel_settings"/>
+		<opacity_texture file="units/world/architecture/glass/glass_shattered_generic_diamond_op"/>
+		<diffuse_texture file="units/world/architecture/glass/glass_shattered_generic2_diamond_df"/>
+		<reflection_texture global_texture="current_global_texture" type="cubemap"/>
+	</material>
+	<material render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" decal_material="sheet_metal" version="2" name="diamondheist_letters">
+		<diffuse_texture file="units/world/props/diamond_heist/signs/diamondheist_directionsigns_df"/>
+		<variable value="match" type="scalar" name="intensity"/>
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

@@ -1,12 +1,12 @@
-<table name="tut">
+<table name="Bolivian Hit">
 	<Hooks directory="hooks">
 		<hook file="menunodecrimenetgui.lua" source_file="lib/managers/menu/renderers/menunodecrimenetgui"/>
 	</Hooks>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<level ai_group_type="America" briefing_dialog="" id="tut" intro_event="" max_bags="54" player_invulnerable="true" player_style="generic" team_ai_off="true">
-		<add file="levels/tut/add.xml"/>
+	<level ai_group_type="America" briefing_dialog="" id="tut1" intro_event="" max_bags="54" player_invulnerable="true" player_style="generic" team_ai_off="true">
+		<add file="levels/tut1/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
 		</assets>
@@ -21,31 +21,16 @@
 				<value_node value="wpn_fps_saw_body_speed"/>
 			</secondary_mods>
 		</force_equipment>
-		<include directory="levels/tut">
-			<file file="world.world" type="binary"/>
-			<file file="continents.continents" type="binary"/>
-			<file file="mission.mission" type="binary"/>
-			<file file="nav_manager_data.nav_data" type="binary"/>
-			<file file="world_sounds.world_sounds" type="binary"/>
-			<file file="world_cameras.world_cameras" type="binary"/>
-			<file file="editor_only/editor_only.continent" type="binary"/>
-			<file file="editor_only/editor_only.mission" type="binary"/>
-			<file file="world/world.continent" type="binary"/>
-			<file file="world/world.mission" type="binary"/>
-			<file file="cover_data.cover_data" type="binary"/>
-			<file file="environments/default.environment" type="custom_xml"/>
-		</include>
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
 		<packages>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/nature/nature"/>
-			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world"/>
 			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
-			<value_node value="levels/narratives/butcher/thebomb/stage_3/marac/marac"/>
 			<value_node value="packages/lvl_friend"/>
 			<value_node value="levels/narratives/h_firestarter/stage_1/world/world"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_3/marac/marac"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -55,7 +40,7 @@
 	</level>
 	<narrative briefing_event="" contact="custom" hide_from_crimenet="true" id="tut">
 		<chain>
-			<table level_id="tut" type="d" type_id="heist_type_assault"/>
+			<table level_id="tut1" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
 			<value_node value="4000"/>
