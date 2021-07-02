@@ -31,6 +31,7 @@
 			<value_node value="packages/lvl_friend"/>
 			<value_node value="levels/narratives/h_firestarter/stage_1/world/world"/>
 			<value_node value="levels/narratives/butcher/thebomb/stage_3/marac/marac"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
