@@ -1,1 +1,5 @@
-{}
+{
+"heist_tut_name": "Bolivian Hit - Sniping"
+"heist_tut1_name": "The Bolivian Hit"
+
+}

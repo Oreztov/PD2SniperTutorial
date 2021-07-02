@@ -53,4 +53,27 @@
 		<object path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" unload="true"/>
 		<unit path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" unload="true"/>
 	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_b" type="unit">
+		<material_config path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_b" unload="true"/>
+		<object path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_b" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_g" type="unit">
+		<material_config path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_g" unload="true"/>
+		<object path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_g" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet_stack_g" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_watchtower/bph_ext_watchtower" type="unit">
+		<material_config path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_watchtower/bph_ext_watchtower" unload="true"/>
+		<object path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_watchtower/bph_ext_watchtower" unload="true"/>
+		<unit path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_watchtower/bph_ext_watchtower" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_watchtower/bph_ext_watchtower_window_01_base" type="unit">
+		<material_config path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_watchtower/bph_ext_watchtower" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
+		<object path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_watchtower/bph_ext_watchtower_window_01_base" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_watchtower/bph_ext_watchtower_window_01_base" unload="true"/>
+		<unit path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_watchtower/bph_ext_watchtower_window_01_base" unload="true"/>
+	</add>
 </table>
