@@ -1,0 +1,26 @@
+<table directory="assets">
+	<add path="units/test/jocke/plane_black_temp" type="unit">
+		<material_config path="units/test/jocke/plane_black_temp" unload="true"/>
+		<object path="units/test/jocke/plane_black_temp" unload="true"/>
+		<unit path="units/test/jocke/plane_black_temp" unload="true"/>
+	</add>
+	<add path="environments/pd2_mcmansion_night/pd2_mcmansion_night" type="environment">
+		<environment path="environments/pd2_mcmansion_night/pd2_mcmansion_night" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_64x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_64x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_64x3m" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
+		<model path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
+		<object path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
+		<unit load="true" path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
+	</add>
+	<add path="units/pickups/ammo/ammo_pickup" type="unit">
+		<material_config path="units/pickups/ammo/ammo_pickup" unload="true"/>
+		<object path="units/pickups/ammo/ammo_pickup" unload="true"/>
+		<unit path="units/pickups/ammo/ammo_pickup" unload="true"/>
+	</add>
+</table>

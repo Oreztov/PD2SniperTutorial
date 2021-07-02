@@ -1,0 +1,6 @@
+<materials version="3">
+	<material name="mat_armory_shelf" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" >
+		<diffuse_texture file="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo_df"/>
+		<bump_normal_texture file="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo_nm"/>
+	</material>
+</materials>

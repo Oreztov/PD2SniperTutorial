@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<unit type="dev" slot="23">
+  <network sync="spawn" />
+  <object file="units/pickups/ammo/ammo_pickup" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+    <extension name="contour" class="ContourExt" />
+    <extension name="pickup" class="AmmoClip" />
+  </extensions>
+</unit>

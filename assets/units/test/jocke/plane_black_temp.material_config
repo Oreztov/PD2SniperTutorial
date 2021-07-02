@@ -1,0 +1,5 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:INSTANCED:VERTEX_COLOR" name="df" version="2">
+        <diffuse_texture file="units/test/jocke/black_16x16_df"/>
+    </material>
+</materials>

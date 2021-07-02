@@ -1,0 +1,4 @@
+<table>
+	<objective description="obj_1_vantage_desc" id="obj_1_vantage" text="obj_1_vantage"/>
+	<objective amount="5" description="obj_2_clear_desc" id="obj_2_clear" text="obj_2_clear"/>
+</table>

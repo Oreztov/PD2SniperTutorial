@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_docks_water" materials="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" />
+    <bodies>
+        <body enabled="true" template="editor" name="body0" >
+            <object collision_type="box" name="c_water" />
+        </body>
+    </bodies>
+	<decal_surfaces>
+		<decal_mesh name="g_water" enable="true" material="water_puddle"/> 
+	</decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_water" />
+    </graphics>
+</dynamic_object>

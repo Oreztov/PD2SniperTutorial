@@ -1,0 +1,115 @@
+<table name="tut">
+	<Hooks directory="hooks">
+		<hook file="menunodecrimenetgui.lua" source_file="lib/managers/menu/renderers/menunodecrimenetgui"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<level ai_group_type="America" briefing_dialog="" id="tut" intro_event="" max_bags="54" player_invulnerable="true" player_style="generic" team_ai_off="true">
+		<add file="levels/tut/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+		</assets>
+		<force_equipment armor="level_2" body_bags="1" character="russian" deployable="none" melee="weapon" primary="wpn_fps_snp_model70" secondary="wpn_fps_saw_secondary" throwable="none">
+			<primary_mods>
+				<value_node value="wpn_fps_snp_model70_ns_suppressor"/>
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_surefire"/>
+				<value_node value="wpn_fps_upg_bonus_recoil_p1"/>
+				<value_node value="wpn_fps_upg_bonus_total_ammo_p3"/>
+			</primary_mods>
+			<secondary_mods>
+				<value_node value="wpn_fps_saw_body_speed"/>
+			</secondary_mods>
+		</force_equipment>
+		<include directory="levels/tut">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/nature/nature"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_3/marac/marac"/>
+			<value_node value="packages/lvl_friend"/>
+			<value_node value="levels/narratives/h_firestarter/stage_1/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="" contact="custom" hide_from_crimenet="true" id="tut">
+		<chain>
+			<table level_id="tut" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>

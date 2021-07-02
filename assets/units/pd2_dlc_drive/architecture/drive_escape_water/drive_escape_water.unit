@@ -1,0 +1,6 @@
+<unit type="gen" slot="1" >
+    <object file="units/pd2_dlc_drive/architecture/drive_escape_water/drive_escape_water" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

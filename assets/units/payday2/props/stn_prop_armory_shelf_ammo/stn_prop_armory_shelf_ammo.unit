@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<unit type="stn" slot="14">
+	<object file="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="base" class="CustomAmmoBagBase" />
+		<extension name="damage" class="UnitDamage" />		
+    	<extension name="interaction" class="AmmoBagInteractionExt" >
+    		<var name="tweak_data" value="ammo_bag" />
+    		<var name="_interact_object" value="interact_locator"/>
+    	</extension>
+	</extensions>
+	<sounds>
+		<default_soundsource source="interact_locator"/>
+	</sounds>
+</unit>

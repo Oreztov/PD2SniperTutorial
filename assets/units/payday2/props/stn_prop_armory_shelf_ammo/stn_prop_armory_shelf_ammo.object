@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" orientation_object="rp_stn_prop_armory_shelf_ammo" />
+	<sequence_manager file="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_stn_prop_armory_shelf_ammo" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_paper" enabled="true" material="paper" />
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<graphic_group name="grp_lod_ammo" enabled="true">
+			<lod_object name="lod_ammo">
+				<object name="g_ammo_lod0" enabled="true"  max_distance="2500"  max_draw_lod="0" />
+				<object name="g_ammo_lod1" enabled="true"  max_distance="3500" lod="1" />
+				<object name="g_ammo_lod2" enabled="true" lod="2" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_lod_shelf" enabled="true">
+			<lod_object name="lod_shelf">
+				<object name="g_shelf_lod0" enabled="true"  max_distance="1000"  max_draw_lod="0" />
+				<object name="g_shelf_lod1" enabled="true"  max_distance="2300" lod="1" />
+				<object name="g_shelf_lod2" enabled="true" lod="2" />
+			</lod_object>
+		</graphic_group>
+
+		<object name="g_ammo_variation_02" enabled="false" />
+		<object name="g_ammo_variation_03" enabled="false" />
+		<object name="g_ammo_variation_04" enabled="false" />
+		<object name="g_ammo_variation_05" enabled="false" />
+	</graphics>
+</dynamic_object>
