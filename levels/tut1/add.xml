@@ -76,4 +76,99 @@
 		<sequence_manager path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_watchtower/bph_ext_watchtower_window_01_base" unload="true"/>
 		<unit path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_watchtower/bph_ext_watchtower_window_01_base" unload="true"/>
 	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/architecture/pta_2/pta_barn" type="unit">
+		<material_config path="units/pd2_dlc_peta/architecture/pta_2/pta_barn" unload="true"/>
+		<object path="units/pd2_dlc_peta/architecture/pta_2/pta_barn" unload="true"/>
+		<unit path="units/pd2_dlc_peta/architecture/pta_2/pta_barn" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/architecture/pta_2/pta_barn_details" type="unit">
+		<material_config path="units/pd2_dlc_peta/architecture/pta_2/pta_barn" unload="true"/>
+		<object path="units/pd2_dlc_peta/architecture/pta_2/pta_barn_details" unload="true"/>
+		<unit path="units/pd2_dlc_peta/architecture/pta_2/pta_barn_details" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_barn_door_small/pta_prop_barn_door_big" type="unit">
+		<material_config path="units/pd2_dlc_peta/props/pta_prop_barn_door_small/pta_prop_barn_door_small" unload="true"/>
+		<object path="units/pd2_dlc_peta/props/pta_prop_barn_door_small/pta_prop_barn_door_big" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_peta/props/pta_prop_barn_door_small/pta_prop_barn_door_big" unload="true"/>
+		<unit path="units/pd2_dlc_peta/props/pta_prop_barn_door_small/pta_prop_barn_door_big" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_barn_haybale_square/pta_prop_barn_haybale_square" type="unit">
+		<material_config path="units/pd2_dlc_peta/props/pta_prop_barn_haybale_square/pta_prop_barn_haybale_square" unload="true"/>
+		<object path="units/pd2_dlc_peta/props/pta_prop_barn_haybale_square/pta_prop_barn_haybale_square" unload="true"/>
+		<unit path="units/pd2_dlc_peta/props/pta_prop_barn_haybale_square/pta_prop_barn_haybale_square" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_barn_hay_round/pta_prop_barn_hay_round" type="unit">
+		<material_config path="units/pd2_dlc_peta/props/pta_prop_barn_hay_round/pta_prop_barn_hay_round" unload="true"/>
+		<object path="units/pd2_dlc_peta/props/pta_prop_barn_hay_round/pta_prop_barn_hay_round" unload="true"/>
+		<unit path="units/pd2_dlc_peta/props/pta_prop_barn_hay_round/pta_prop_barn_hay_round" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/architecture/pta_2/pta_silo" type="unit">
+		<material_config path="units/pd2_dlc_peta/architecture/pta_2/pta_silo" unload="true"/>
+		<object path="units/pd2_dlc_peta/architecture/pta_2/pta_silo" unload="true"/>
+		<unit path="units/pd2_dlc_peta/architecture/pta_2/pta_silo" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/architecture/pta_2/pta_2_wall_3m_broken" type="unit">
+		<material_config path="units/pd2_dlc_peta/architecture/pta_2/pta_2_bridge" unload="true"/>
+		<object path="units/pd2_dlc_peta/architecture/pta_2/pta_2_wall_3m_broken" unload="true"/>
+		<unit path="units/pd2_dlc_peta/architecture/pta_2/pta_2_wall_3m_broken" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/architecture/pta_2/pta_2_wall_6m" type="unit">
+		<material_config path="units/pd2_dlc_peta/architecture/pta_2/pta_2_bridge" unload="true"/>
+		<object path="units/pd2_dlc_peta/architecture/pta_2/pta_2_wall_6m" unload="true"/>
+		<unit path="units/pd2_dlc_peta/architecture/pta_2/pta_2_wall_6m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_windmill_abandoned/pta_prop_windmill_abandoned" type="unit">
+		<material_config path="units/pd2_dlc_peta/props/pta_prop_windmill_abandoned/pta_prop_windmill_abandoned" unload="true"/>
+		<object path="units/pd2_dlc_peta/props/pta_prop_windmill_abandoned/pta_prop_windmill_abandoned" unload="true"/>
+		<unit path="units/pd2_dlc_peta/props/pta_prop_windmill_abandoned/pta_prop_windmill_abandoned" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/architecture/mcm_backdrop_houses/mcm_backdrop_house_01" type="unit">
+		<material_config path="units/pd2_mcmansion/architecture/mcm_backdrop_houses/mcm_backdrop_house_01" unload="true"/>
+		<object path="units/pd2_mcmansion/architecture/mcm_backdrop_houses/mcm_backdrop_house_01" unload="true"/>
+		<sequence_manager path="units/pd2_mcmansion/architecture/mcm_backdrop_houses/mcm_backdrop_house_01" unload="true"/>
+		<unit path="units/pd2_mcmansion/architecture/mcm_backdrop_houses/mcm_backdrop_house_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/architecture/mcm_backdrop_houses/mcm_backdrop_house_02" type="unit">
+		<material_config path="units/pd2_mcmansion/architecture/mcm_backdrop_houses/mcm_backdrop_house_02" unload="true"/>
+		<object path="units/pd2_mcmansion/architecture/mcm_backdrop_houses/mcm_backdrop_house_02" unload="true"/>
+		<unit path="units/pd2_mcmansion/architecture/mcm_backdrop_houses/mcm_backdrop_house_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/vehicles/pta_vehicle_tractor_old/pta_vehicle_tractor_old" type="unit">
+		<material_config path="units/pd2_dlc_peta/vehicles/pta_vehicle_tractor_old/pta_vehicle_tractor_old" unload="true"/>
+		<object path="units/pd2_dlc_peta/vehicles/pta_vehicle_tractor_old/pta_vehicle_tractor_old" unload="true"/>
+		<unit path="units/pd2_dlc_peta/vehicles/pta_vehicle_tractor_old/pta_vehicle_tractor_old" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar" type="unit">
+		<material_config path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar" unload="true"/>
+		<object path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar" unload="true"/>
+		<unit path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_doors" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_doors" unload="true"/>
+		<object path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_doors" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_doors" unload="true"/>
+		<unit path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_doors" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_roof" type="unit">
+		<material_config path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar" unload="true"/>
+		<object path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_roof" unload="true"/>
+		<unit path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_roof" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_roof_dst" type="unit">
+		<material_config path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar" unload="true"/>
+		<object path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_roof_dst" unload="true"/>
+		<unit path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_roof_dst" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_warehouse_whiteboard/ind_prop_warehouse_whiteboard_standing_long" type="unit">
+		<material_config path="units/payday2/props/ind_prop_warehouse_whiteboard/ind_prop_warehouse_whiteboard" unload="true"/>
+		<object path="units/payday2/props/ind_prop_warehouse_whiteboard/ind_prop_warehouse_whiteboard_standing_long" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_warehouse_whiteboard/ind_prop_warehouse_whiteboard_standing_long" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" type="unit">
+		<font path="fonts/font_dunton_writing" unload="true"/>
+		<material_config path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<object path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<unit path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+	</add>
 </table>

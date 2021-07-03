@@ -3,4 +3,5 @@
 	<objective amount="5" description="obj_2_clear_desc" id="obj_2_clear" text="obj_2_clear"/>
 	<objective description="obj_3_collat_desc" id="obj_3_collat" text="obj_3_collat"/>
 	<objective description="obj_4_open_desc" id="obj_4_open" text="obj_4_open"/>
+	<objective description="obj_5_relay_desc" id="obj_5_relay" text="obj_5_relay"/>
 </table>
