@@ -4,4 +4,6 @@
 	<objective description="obj_3_collat_desc" id="obj_3_collat" text="obj_3_collat"/>
 	<objective description="obj_4_open_desc" id="obj_4_open" text="obj_4_open"/>
 	<objective description="obj_5_relay_desc" id="obj_5_relay" text="obj_5_relay"/>
+	<objective description="obj_6_defend_desc" id="obj_6_defend" text="obj_6_defend"/>
+	<objective amount="2" description="obj_7_boss_desc" id="obj_7_boss" text="obj_7_boss"/>
 </table>

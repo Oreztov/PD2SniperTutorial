@@ -1,4 +1,10 @@
 <table directory="assets">
+	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
+		<model path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
+		<object path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
+		<unit load="true" path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
+	</add>
 	<add path="units/test/jocke/plane_black_temp" type="unit">
 		<material_config path="units/test/jocke/plane_black_temp" unload="true"/>
 		<object path="units/test/jocke/plane_black_temp" unload="true"/>
@@ -12,12 +18,6 @@
 		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_64x3m" unload="true"/>
 		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_64x3m" unload="true"/>
 	</add>
-	<add unload_on_restart="true">
-		<material_config path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
-		<model path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
-		<object path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
-		<unit load="true" path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
-	</add>
 	<add path="units/pickups/ammo/ammo_pickup" type="unit">
 		<material_config path="units/pickups/ammo/ammo_pickup" unload="true"/>
 		<object path="units/pickups/ammo/ammo_pickup" unload="true"/>
@@ -27,11 +27,6 @@
 		<material_config path="units/pd2_dlc_dah/architecture/dah_ext_helipad_roof/dah_ext_helipad_roof" unload="true"/>
 		<object path="units/pd2_dlc_dah/architecture/dah_ext_helipad_roof/dah_ext_helipad_roof" unload="true"/>
 		<unit path="units/pd2_dlc_dah/architecture/dah_ext_helipad_roof/dah_ext_helipad_roof" unload="true"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_peta/terrain/pta_2_grass_tufts_mix_medium" type="unit">
-		<material_config path="units/pd2_dlc_peta/terrain/pta_2_foliage" unload="true"/>
-		<object path="units/pd2_dlc_peta/terrain/pta_2_grass_tufts_mix_medium" unload="true"/>
-		<unit path="units/pd2_dlc_peta/terrain/pta_2_grass_tufts_mix_medium" unload="true"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_jerry/terrain/jry_rock_03" type="unit">
 		<material_config path="units/pd2_dlc_jerry/terrain/jry_terrain" unload="true"/>
@@ -170,5 +165,26 @@
 		<material_config path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
 		<object path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
 		<unit path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/drk_prop_hand_radio/drk_prop_hand_radio" type="unit">
+		<material_config path="units/pd2_dlc_dark/props/drk_prop_hand_radio/drk_prop_hand_radio" unload="true"/>
+		<object path="units/pd2_dlc_dark/props/drk_prop_hand_radio/drk_prop_hand_radio" unload="true"/>
+		<unit path="units/pd2_dlc_dark/props/drk_prop_hand_radio/drk_prop_hand_radio" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/terrain/pta_2_grass_tufts_mix_medium" type="unit">
+		<material_config path="units/pd2_dlc_peta/terrain/pta_2_foliage" unload="true"/>
+		<object path="units/pd2_dlc_peta/terrain/pta_2_grass_tufts_mix_medium" unload="true"/>
+		<unit path="units/pd2_dlc_peta/terrain/pta_2_grass_tufts_mix_medium" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" type="unit">
+		<object path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<sequence_manager path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<unit path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/iphone/iphone" type="unit">
+		<material_config path="units/world/props/iphone/iphone" unload="true"/>
+		<object path="units/world/props/iphone/iphone" unload="true"/>
+		<sequence_manager path="units/world/props/iphone/iphone" unload="true"/>
+		<unit path="units/world/props/iphone/iphone" unload="true"/>
 	</add>
 </table>
