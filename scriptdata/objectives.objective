@@ -6,4 +6,6 @@
 	<objective description="obj_5_relay_desc" id="obj_5_relay" text="obj_5_relay"/>
 	<objective description="obj_6_defend_desc" id="obj_6_defend" text="obj_6_defend"/>
 	<objective amount="2" description="obj_7_boss_desc" id="obj_7_boss" text="obj_7_boss"/>
+	<objective description="obj_8_divert_desc" id="obj_8_divert" text="obj_8_divert"/>
+	<objective description="obj_9_escape_desc" id="obj_9_escape" text="obj_9_escape"/>
 </table>

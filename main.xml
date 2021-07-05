@@ -1,6 +1,15 @@
 <table name="Bolivian Hit">
+	<Achievements icon="textures/tut/tut_pack" id="tut_pack">
+		<achievement icon="textures/tut/tut_complete" id="tut_complete" rank="1" reward_amount="6" reward_type="cc"/>
+		<achievement icon="textures/tut/tut_fail" id="tut_fail" rank="1" reward_amount="1" reward_type="cc"/>
+		<achievement icon="textures/tut/tut_5mingo" id="tut_5mingo" rank="2" reward_amount="5" reward_type="cc"/>
+		<achievement icon="textures/tut/tut_early" id="tut_early" rank="2" reward_amount="5" reward_type="cc"/>
+		<achievement icon="textures/tut/tut_everyone" id="tut_everyone" rank="3" reward_amount="15" reward_type="cc"/>
+		<achievement amount="20" icon="textures/tut/tut_20mingo" id="tut_20mingo" rank="4" reward_amount="20" reward_type="cc"/>
+	</Achievements>
 	<Hooks directory="hooks">
 		<hook file="menunodecrimenetgui.lua" source_file="lib/managers/menu/renderers/menunodecrimenetgui"/>
+		<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 	</Hooks>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
@@ -9,8 +18,9 @@
 		<add file="levels/tut1/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
+			<asset name="tut_targets"/>
 		</assets>
-		<force_equipment armor="level_2" body_bags="1" character="russian" deployable="none" melee="weapon" primary="wpn_fps_snp_model70" secondary="wpn_fps_saw_secondary" throwable="none">
+		<force_equipment armor="level_1" body_bags="1" character="russian" deployable="none" melee="weapon" primary="wpn_fps_snp_model70" secondary="wpn_fps_saw_secondary" throwable="none">
 			<primary_mods>
 				<value_node value="wpn_fps_snp_model70_ns_suppressor"/>
 				<value_node value="wpn_fps_upg_fl_ass_smg_sho_surefire"/>
@@ -18,7 +28,7 @@
 				<value_node value="wpn_fps_upg_bonus_total_ammo_p3"/>
 			</primary_mods>
 			<secondary_mods>
-				<value_node value="wpn_fps_saw_body_speed"/>
+				<value_node value="wpn_fps_saw_body_silent"/>
 			</secondary_mods>
 		</force_equipment>
 		<outro_event>

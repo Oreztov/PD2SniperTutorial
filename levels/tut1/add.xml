@@ -187,4 +187,138 @@
 		<sequence_manager path="units/world/props/iphone/iphone" unload="true"/>
 		<unit path="units/world/props/iphone/iphone" unload="true"/>
 	</add>
+	<add from_db="true" path="units/payday2/props/str_bdrop_mechanical_power_tower/str_bdrop_mechanical_power_tower_a" type="unit">
+		<material_config path="units/payday2/props/str_bdrop_mechanical_power_tower/str_bdrop_mechanical_power_tower_a" unload="true"/>
+		<object path="units/payday2/props/str_bdrop_mechanical_power_tower/str_bdrop_mechanical_power_tower_a" unload="true"/>
+		<unit path="units/payday2/props/str_bdrop_mechanical_power_tower/str_bdrop_mechanical_power_tower_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/pool_table/pool_table" type="unit">
+		<material_config path="units/world/props/pool_table/pool_table" unload="true"/>
+		<object path="units/world/props/pool_table/pool_table" unload="true"/>
+		<unit path="units/world/props/pool_table/pool_table" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/cas/cas_prop_barstool_a" type="unit">
+		<material_config path="units/payday2/architecture/cas/cas" unload="true"/>
+		<object path="units/payday2/architecture/cas/cas_prop_barstool_a" unload="true"/>
+		<unit path="units/payday2/architecture/cas/cas_prop_barstool_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case_2x1_closed" type="unit">
+		<material_config path="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case" unload="true"/>
+		<object path="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case_2x1_closed" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_weapon_case/gen_prop_weapon_case_2x1_closed" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mill_lumber_stacks/stack_logs_a" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_logs" unload="true"/>
+		<object path="units/payday2/props/ind_prop_mill_lumber_stacks/stack_logs_a" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_mill_lumber_stacks/stack_logs_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mill_lumber_stacks/stack_logs_b" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_logs" unload="true"/>
+		<object path="units/payday2/props/ind_prop_mill_lumber_stacks/stack_logs_b" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_mill_lumber_stacks/stack_logs_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mill_lumber_stacks/stack_logs_c" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_logs" unload="true"/>
+		<object path="units/payday2/props/ind_prop_mill_lumber_stacks/stack_logs_c" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_mill_lumber_stacks/stack_logs_c" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stack_single" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks" unload="true"/>
+		<object path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stack_single" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stack_single" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks" unload="true"/>
+		<object path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stack_single_covered" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks" unload="true"/>
+		<object path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stack_single_covered" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stack_single_covered" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks_covered" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks" unload="true"/>
+		<object path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks_covered" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks_covered" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover" type="unit">
+		<unit path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup" unload="true"/>
+		<unit path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover_husk" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
+		<material_config path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover" unload="true"/>
+		<object path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover_husk" type="unit">
+		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+		<material_config path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover" unload="true"/>
+		<object path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<unit path="units/pd2_dlc_rvd/characters/ene_female_civ_undercover/ene_female_civ_undercover_husk" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo_a" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo_a" unload="true"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo_a" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo" unload="true"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" type="unit">
+		<material_config path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<object path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<unit path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_rooftop_satellitedish/str_prop_rooftop_satellitedish" type="unit">
+		<material_config path="units/payday2/props/str_prop_rooftop_satellitedish/str_prop_rooftop_satellitedish" unload="true"/>
+		<object path="units/payday2/props/str_prop_rooftop_satellitedish/str_prop_rooftop_satellitedish" unload="true"/>
+		<unit path="units/payday2/props/str_prop_rooftop_satellitedish/str_prop_rooftop_satellitedish" unload="true"/>
+	</add>
 </table>
