@@ -321,4 +321,101 @@
 		<object path="units/payday2/props/str_prop_rooftop_satellitedish/str_prop_rooftop_satellitedish" unload="true"/>
 		<unit path="units/payday2/props/str_prop_rooftop_satellitedish/str_prop_rooftop_satellitedish" unload="true"/>
 	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_miltary_radar/vit_prop_miltary_radar" type="unit">
+		<effect load="true" path="effects/payday2/particles/explosions/radar_explosion" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/explosion_parts/fire_burnpuff_small_light" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_miltary_radar/vit_prop_miltary_radar" unload="true"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_miltary_radar/vit_prop_miltary_radar" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_prop_miltary_radar/vit_prop_miltary_radar" unload="true"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_miltary_radar/vit_prop_miltary_radar" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_miltary_sam/vit_prop_miltary_sam" type="unit">
+		<effect load="true" path="effects/payday2/particles/fire/fire_trail_missile" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/burnpuff" unload="true"/>
+		<animation_def path="anims/units/level/mad/sam_site/def" unload="true"/>
+		<animation_state_machine path="anims/units/level/mad/sam_site/machine" unload="true"/>
+		<animation_states path="anims/units/level/mad/sam_site/states" unload="true"/>
+		<animation_subset path="anims/units/level/mad/sam_site/anims" unload="true"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_miltary_sam/vit_prop_miltary_sam" unload="true"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_miltary_sam/vit_prop_miltary_sam" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_prop_miltary_sam/vit_prop_miltary_sam" unload="true"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_miltary_sam/vit_prop_miltary_sam" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox" type="unit">
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox" unload="true"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox" unload="true"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_cov_sandbag_wall_high/des_cov_sandbag_wall_high" type="unit">
+		<material_config path="units/world/props/desert/des_cov_sandbag_wall_high/des_cov_sandbag_mtr" unload="true"/>
+		<object path="units/world/props/desert/des_cov_sandbag_wall_high/des_cov_sandbag_wall_high" unload="true"/>
+		<unit path="units/world/props/desert/des_cov_sandbag_wall_high/des_cov_sandbag_wall_high" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_cov_sandbag_wall_high/des_cov_sandbag_wall_high_round" type="unit">
+		<material_config path="units/world/props/desert/des_cov_sandbag_wall_high/des_cov_sandbag_mtr" unload="true"/>
+		<object path="units/world/props/desert/des_cov_sandbag_wall_high/des_cov_sandbag_wall_high_round" unload="true"/>
+		<unit path="units/world/props/desert/des_cov_sandbag_wall_high/des_cov_sandbag_wall_high_round" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/equipment/chas_interactable_destructible_crate/chas_interactable_destructible_crate" type="unit">
+		<unit path="units/pd2_dlc_chas/equipment/chas_interactable_destructible_crate/chas_interactable_destructible_crate" unload="true"/>
+		<object path="units/pd2_dlc_chas/equipment/chas_interactable_destructible_crate/chas_interactable_destructible_crate" unload="true"/>
+		<material_config path="units/pd2_dlc_chas/equipment/chas_interactable_destructible_crate/chas_interactable_destructible_crate" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_chas/equipment/chas_interactable_destructible_crate/chas_interactable_destructible_crate" unload="true"/>
+		<unit path="units/pd2_dlc_chas/equipment/chas_interactable_destructible_crate/spawn_chas_interactable_destructible_crate" unload="true"/>
+		<object path="units/pd2_dlc_chas/equipment/chas_interactable_destructible_crate/spawn_chas_interactable_destructible_crate" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/grab/grab_gold" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/grab/grab_coke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/grab/parts/coke_smoke" unload="true"/>
+		<unit path="units/pd2_dlc_chas/pickups/chas_pku_artifact/chas_pku_artifact" unload="true"/>
+		<object path="units/pd2_dlc_chas/pickups/chas_pku_artifact/chas_pku_artifact" unload="true"/>
+		<material_config path="units/pd2_dlc_chas/pickups/chas_pku_artifact/chas_pku_artifact" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_artifact/chas_pku_artifact" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_cage_bag/gen_pku_cage_bag" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_cage_bag/gen_pku_cage_bag" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_cage_bag/gen_pku_cage_bag" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_cage_bag/gen_pku_cage_bag" unload="true"/>
+		<unit path="units/payday2/characters/npc_acc_cage_bag_1/npc_acc_cage_bag_1" unload="true"/>
+		<object path="units/payday2/characters/npc_acc_cage_bag_1/npc_acc_cage_bag_1" unload="true"/>
+		<material_config path="units/payday2/characters/npc_acc_cage_bag_1/npc_acc_cage_bag_1" unload="true"/>
+		<unit path="units/pd2_dlc_chew/props/chw_prop_wooden_crate/spawn_chw_prop_wooden_crate_debris" unload="true"/>
+		<object path="units/pd2_dlc_chew/props/chw_prop_wooden_crate/spawn_chw_prop_wooden_crate_debris" unload="true"/>
+		<material_config path="units/pd2_dlc_chew/props/chw_prop_wooden_crate/chw_prop_wooden_crate" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/grenade_explosion" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/skidmark/skidmark_straight" type="unit">
+		<material_config path="units/world/brushes/skidmark/skidmark" unload="true"/>
+		<object path="units/world/brushes/skidmark/skidmark_straight" unload="true"/>
+		<unit path="units/world/brushes/skidmark/skidmark_straight" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str_ext_bridge_b/str_bridge_set_toll_barrier" type="unit">
+		<material_config path="units/payday2/architecture/str_ext_bridge_b/str_bridge_set_toll_barrier" unload="true"/>
+		<object path="units/payday2/architecture/str_ext_bridge_b/str_bridge_set_toll_barrier" unload="true"/>
+		<sequence_manager path="units/payday2/architecture/str_ext_bridge_b/str_bridge_set_toll_barrier" unload="true"/>
+		<unit path="units/payday2/architecture/str_ext_bridge_b/str_bridge_set_toll_barrier" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/props/yacht/basket/lxy_prop_ext_fruit_basket" type="unit">
+		<material_config path="units/pd2_dlc_lxy/props/yacht/basket/basket_fruit" unload="true"/>
+		<object path="units/pd2_dlc_lxy/props/yacht/basket/lxy_prop_ext_fruit_basket" unload="true"/>
+		<unit path="units/pd2_dlc_lxy/props/yacht/basket/lxy_prop_ext_fruit_basket" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/suburbia_newspaper/suburbia_newspaper" type="unit">
+		<material_config path="units/world/props/suburbia_newspaper/suburbia_newspaper" unload="true"/>
+		<object path="units/world/props/suburbia_newspaper/suburbia_newspaper" unload="true"/>
+		<unit path="units/world/props/suburbia_newspaper/suburbia_newspaper" unload="true"/>
+	</add>
 </table>

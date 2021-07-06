@@ -7,6 +7,17 @@
 		<achievement icon="textures/tut/tut_everyone" id="tut_everyone" rank="3" reward_amount="15" reward_type="cc"/>
 		<achievement amount="20" icon="textures/tut/tut_20mingo" id="tut_20mingo" rank="4" reward_amount="20" reward_type="cc"/>
 	</Achievements>
+	<AddFiles directory="assets">
+		<texture force="true" path="textures/tut/tut_pack"/>
+		<texture force="true" path="textures/tut/tut_complete"/>
+		<texture force="true" path="textures/tut/tut_fail"/>
+		<texture force="true" path="textures/tut/tut_5mingo"/>
+		<texture force="true" path="textures/tut/tut_early"/>
+		<texture force="true" path="textures/tut/tut_everyone"/>
+		<texture force="true" path="textures/tut/tut_20mingo"/>
+		<png force="true" path="textures/tut/tut_targets"/>
+		<png force="true" path="textures/tut/tut_cliff"/>
+	</AddFiles>
 	<Hooks directory="hooks">
 		<hook file="menunodecrimenetgui.lua" source_file="lib/managers/menu/renderers/menunodecrimenetgui"/>
 		<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
@@ -14,11 +25,30 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<level ai_group_type="America" briefing_dialog="" id="tut1" intro_event="" max_bags="54" player_invulnerable="true" player_style="generic" team_ai_off="true">
+	<Sounds directory="assets/sounds">
+		<sound id="tut_brief" path="tut_brief.ogg" subtitle_id="tut_brief"/>
+		<sound id="tut_obj_1" path="tut_obj_1.ogg" subtitle_id="tut_obj_1"/>
+		<sound id="tut_obj_2" path="tut_obj_2.ogg" subtitle_id="tut_obj_2"/>
+		<sound id="tut_obj_3" path="tut_obj_3.ogg" subtitle_id="tut_obj_3"/>
+		<sound id="tut_obj_3_fail" path="tut_obj_3_fail.ogg" subtitle_id="tut_obj_3_fail"/>
+    <sound id="tut_obj_3_skip" path="tut_obj_3_skip.ogg" subtitle_id="tut_obj_3_skip"/>
+		<sound id="tut_obj_4" path="tut_obj_4.ogg" subtitle_id="tut_obj_4"/>
+    <sound id="tut_obj_4_skip" path="tut_obj_4_skip.ogg" subtitle_id="tut_obj_4_skip"/>
+		<sound id="tut_obj_5" path="tut_obj_5.ogg" subtitle_id="tut_obj_5"/>
+		<sound id="tut_obj_6" path="tut_obj_6.ogg" subtitle_id="tut_obj_6"/>
+		<sound id="tut_obj_6_fail" path="tut_obj_6_fail.ogg" subtitle_id="tut_obj_6_fail"/>
+		<sound id="tut_obj_6_panik" path="tut_obj_6_panik.ogg" subtitle_id="tut_obj_6_panik"/>
+		<sound id="tut_obj_7" path="tut_obj_7.ogg" subtitle_id="tut_obj_7"/>
+		<sound id="tut_obj_8" path="tut_obj_8.ogg" subtitle_id="tut_obj_8"/>
+		<sound id="tut_obj_8_fail" path="tut_obj_8_fail.ogg" subtitle_id="tut_obj_8_fail"/>
+		<sound id="tut_obj_9" path="tut_obj_9.ogg" subtitle_id="tut_obj_9"/>
+	</Sounds>
+	<level ai_group_type="America" briefing_dialog="tut_brief" id="tut1" intro_event="" max_bags="54" player_invulnerable="true" player_style="generic" team_ai_off="true">
 		<add file="levels/tut1/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="tut_targets"/>
+			<asset name="tut_cliff"/>
 		</assets>
 		<force_equipment armor="level_1" body_bags="1" character="russian" deployable="none" melee="weapon" primary="wpn_fps_snp_model70" secondary="wpn_fps_saw_secondary" throwable="none">
 			<primary_mods>

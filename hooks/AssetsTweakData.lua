@@ -4,7 +4,13 @@ Hooks:PostHook(AssetsTweakData, "init", "init_tut_assets", function(self, tweak_
 		name_id = "tut_targets_name",
 		unlock_desc_id = "tut_targets_desc",
 		texture = "textures/tut/tut_targets",
-		money_lock = tweak_data:get_value("money_manager", "mission_asset_cost_medium", 10),
+		no_mystery = true
+	}
+
+	self.tut_cliff = {
+		name_id = "tut_cliff_name",
+		unlock_desc_id = "tut_cliff_desc",
+		texture = "textures/tut/tut_cliff",
 		no_mystery = true
 	}
 
